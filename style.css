@@ -1,0 +1,71 @@
+.main_header{
+    width: 100%;
+    height: px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logo_div{
+    width: 24%;
+    height: inherit;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.nav_div{
+    width: 48%;
+    height: inherit;
+}
+.login_div{
+    width: 24%;
+    height: inherit;
+}
+.login_div>h1{
+    border: 5px solid black;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+.login_div>h1:hover{
+    color: white;
+    background-color: black;
+}
+.navs>li{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 20px;
+    color: black;
+}
+.navs>li>a:hover{
+     color: white;
+     background-color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}    
+.card{
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 0.5;
+    margin-top: 10px;
+    
+}
+.card>img{
+    width: 200px;
+    transition: 5s;
+}
+.card>img:hover{
+    transform: rotateX(360deg);
+    transform: rotatey(360deg);
+    
+}
+.bg{
+    background-image: url(images/PUBG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
